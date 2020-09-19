@@ -4,7 +4,7 @@ import DropDown from './DropDown';
 
 function App() {
   let handler = React.useCallback(code => {
-    alert(code);
+    console.log(code);
   }, []);
   return (
     <div className="App">
